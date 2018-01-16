@@ -88,6 +88,77 @@ body {
 
 
 
+/*Todo List Section*/
+#todo {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#todo > .container > .row > .center {
+	text-align: center;
+}
+#todo h1 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 45px;
+	color: #202020;
+	opacity: 0.85;
+	text-align: center;
+}
+#todo input[type=text] {
+	border-radius: 5px;
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	margin-top: 8px;
+	margin-right: 8px;
+	width: 40%;
+	display: inline-block;
+}
+#todo .btn {
+	padding: 11px;
+	border: none;
+	transition: all .2s ease-in-out;
+}
+#todo .btn:hover {
+	background: #202020;
+}
+#todo .table {
+	margin-top: 50px;
+	border-radius: 5px;
+}
+#todo .header {
+	background: #7C7C7C;
+	color: #fff;
+}
+#todo .table > thead td {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+#todo .table > tbody td > div {
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#todo .table-row-hover:hover {
+	background: #eeeeee;
+	color: #202020;
+	padding: 0;
+	transition: all .08s ease-in-out;
+	cursor: pointer;
+}
+.complete-background {
+	background: #FFF931;
+}
+
+
+
+
+
+
+
+
 /*Introduction Section*/
 #intro {
 	background: #fff;

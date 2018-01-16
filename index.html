@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="TodoApp">
 <head>
 	<title>My Profile</title>
 
@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.min.css">
+
 
 </head>
 <body>
@@ -50,6 +51,7 @@
 				</div>
 			</div>
 		</section>
+
 
 
 		<!-- Introduction Section -->
@@ -96,6 +98,48 @@
 									<img src="image/profile-4.jpg" class="img-style">
 								</div>
 							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Todo List Section -->
+		<section id="todo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 center">
+						<h1>todos</h1>
+					</div>
+					<div class="col-md-12 col-sm-12 center">
+						<div ng-controller="addTextController">
+							<form ng-submit="save()">
+								<input type="text" placeholder="What need to do done?" ng-model="title">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+					</div>
+
+					<div ng-controller="showListController">
+						<div class="col-md-12 col-sm-12">
+							<table class="table">
+								<thead class="header">
+									<tr>
+										<td width="5%"></td>
+										<td width="30%">Title</td>
+										<td width="20%">Done</td>
+									</tr>
+								</thead>
+								<tbody ng-controller="checkController">
+									<tr ng-repeat="text in titles" class="table-row-hover" ng-model="check" ng-click="checkDone(text)">
+										<td style="text-align: center;"><input type="checkbox" ng-checked="text.check" class="table-row-hover"></td>
+										<td style="padding-left: 100px;">{{text.title}}</td>
+										<td><div ng-if="text.check">complete</div></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 
@@ -213,6 +257,9 @@
 		<script src="js/parallax.min.js"></script>
 		<script src="js/main.js"></script>
 
+		<!-- Todo List Library -->
+	    <script src="node_modules/angular/angular.min.js" charset="utf-8"></script>
+	    <script src="appTodo.js" charset="utf-8"></script>
 
 </body>
 </html>
