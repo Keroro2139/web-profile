@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+
+	<link rel="icon" type="image/png" href="rocket.png" sizes="16x16">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+
+</head>
+<body>
+
+
+	<!-- test section -->
+	<!-- <section id="test">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="parallax-window" data-parallax="scroll" data-image-src="image/home-bg.jpg">
+				<h1>Hello</h1>
+				<p>Testing parallax</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	</section> -->
+	
+		<!-- Home Section -->
+		<section id="home" >
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="parallax-window" data-parallax="scroll" data-image-src="image/home-bg.jpg">
+							<div class="wrapper">
+								<h1 class="wow bounceInDown">welcome</h1>
+								<p class="wow bounce" data-wow-delay=".3s">to</p>
+								<h2 class="wow bounce" data-wow-delay=".4s">keroro site</h2>
+								<a href="#intro">
+									<button class="btn btn-warning">
+										Start
+									</button>
+								</a>
+							</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Introduction Section -->
+		<section id="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 icon-head">
+						<h1>introduction</h1>
+						<hr>
+						<i class="fa fa-cubes"></i>
+						<h2>weerapat chulaket</h2>
+						<p>I want to be a Developer</p>
+					</div>
+					<div class="col-md-12 col-sm-12 img-intro">
+						<div class="col-md-3 col-sm-3 wow bounceIn cursor" data-wow-delay=".3s">
+							<img src="image/profile-1.jpg" class="intro-image" onclick="openBox();showImage(0);">
+						</div>
+						<div class="col-md-3 col-sm-3 wow bounceIn cursor" data-wow-delay=".5s">
+							<img src="image/profile-2.jpg" class="intro-image" onclick="openBox();showImage(1);">
+						</div>
+						<div class="col-md-3 col-sm-3 wow bounceIn cursor" data-wow-delay=".7s">
+							<img src="image/profile-3.jpg" class="intro-image" onclick="openBox();showImage(2);">
+						</div>
+						<div class="col-md-3 col-sm-3 wow bounceIn cursor" data-wow-delay=".9s">
+							<img src="image/profile-4.jpg" class="intro-image" onclick="openBox();showImage(3);">
+						</div>
+					</div>
+
+					<!-- Slide Show intro image (Open when click) -->
+					<div id="myBox" class="Box">
+						<div class="container-fluid">
+							<div class="col-md-12 col-sm-12">
+								<i class="fa fa-times" onclick="closeBox()"></i>
+								<div class="mySlide">
+									<img src="image/profile-1.jpg" class="img-style">
+								</div>
+								<div class="mySlide">
+									<img src="image/profile-2.jpg" class="img-style">
+								</div>
+								<div class="mySlide">
+									<img src="image/profile-3.jpg" class="img-style">
+								</div>
+								<div class="mySlide">
+									<img src="image/profile-4.jpg" class="img-style">
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- AWS Section -->
+		<section id="aws">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 title wow slideInLeft">
+						<i class="fa fa-cloud"></i>
+						<h1>Amazon Web Services</h1>
+						<hr>
+						<p>Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. Explore how millions of customers are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased flexibility, scalability and reliability.</p>					
+					</div>
+					<div class="col-md-8 col-sm-8">
+						<a href="#s3">
+							<div class="col-md-4 col-sm-4 bg-black services wow fadeInDown"
+								data-wow-delay=".1s">
+								<i class="fa fa-hdd-o"></i>
+								<h3>Amazon S3</h3>
+							</div>
+						</a>
+						<a href="#home">
+							<div class="col-md-4 col-sm-4 bg-red services wow slideInLeft"
+								data-wow-delay=".3s">
+								<i class="fa fa-code"></i>
+								<h3>Amazon Lambda</h3>
+							</div>
+						</a>
+						<a href="#home">
+							<div class="col-md-4 col-sm-4 bg-black services wow slideInLeft"
+								data-wow-delay=".5s">
+								<i class="fa fa-briefcase"></i>
+								<h3>Amazon CloudFormation</h3>
+							</div>
+						</a>
+						<a href="#home">
+							<div class="col-md-4 col-sm-4 bg-red services wow slideInRight"
+								data-wow-delay="1s">
+								<i class="fa fa-users"></i>
+								<h3>Amazon IAM</h3>
+							</div>
+						</a>
+						<a href="#home">
+							<div class="col-md-4 col-sm-4 bg-black services wow slideInRight"
+								data-wow-delay=".8s">
+								<i class="fa fa-database"></i>
+								<h3>Amazon DynamoDB</h3>
+							</div>
+						<a href="#home">
+							<div class="col-md-4 col-sm-4 bg-red services wow bounceInUp"
+								data-wow-delay=".6s">
+								<i class="fa fa-server"></i>
+								<h3>Amazon EC2</h3>
+							</div>
+						</a>
+					</div>
+					</div>
+			</div>
+		</section>
+
+
+		<!-- S3 Section -->
+		<section id="s3">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-sm-12" data-wow-delay=".3s">
+								<i class="fa fa-hdd-o wow bounceIn"></i>
+								<h1 class=" wow bounceIn">amazon s3</h1>
+								<hr class=" wow bounceIn">
+								<div class="col-md-6 col-md-offset-3 col-sm-offset-2 col-sm-8 wow bounceIn">
+									<div class="video-container">
+										<iframe height="349" width="560" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/rKpKHulqYOQ" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 wow fadeInUp">
+									<p>Companies today need the ability to simply and securely collect, store, and analyze their data at a massive scale. Amazon S3 is object storage built to store and retrieve any amount of data from anywhere – web sites and mobile apps, corporate applications, and data from IoT sensors or devices. It is designed to deliver <font color="red">99.999999999%</font> durability, and stores data for millions of applications used by market leaders in every industry. S3 provides comprehensive security and compliance capabilities that meet even the most stringent regulatory requirements. It gives customers flexibility in the way they manage data for cost optimization, access control, and compliance. S3 provides query-in-place functionality, allowing you to run powerful analytics directly on your data at rest in S3. And Amazon S3 is the most supported storage platform available, with the largest ecosystem of ISV solutions and systems integrator partners.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Footer Section -->
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 only">
+						<h1>contact me</h1>
+						<i class="fa fa-facebook hover-blue wow bounceIn" data-wow-delay=".2s"></i>
+						<i class="fa fa-instagram hover-brown wow bounceIn" data-wow-delay=".4s"></i>
+						<i class="fa fa-twitter hover-aqua wow bounceIn" data-wow-delay=".6s"></i>
+						<i class="fa fa-phone hover-green wow bounceIn" data-wow-delay=".8s"></i>
+						<p>Copyright © 2018 Keroro Company | Design by <a href="#home"><font color="#FFFF8E">Weerapat Chulaket</font></a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<!-- JS Files -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Animation wow bounce -->
+			<script src="js/wow.min.js"></script>
+			<script src="js/nivo-lightbox.min.js"></script>
+		<script src="js/parallax.min.js"></script>
+		<script src="js/main.js"></script>
+
+
+</body>
+</html>

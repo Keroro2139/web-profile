@@ -1,0 +1,389 @@
+hr {
+	color: #202020;
+	width: 30%;
+}
+body {
+	user-select: none;
+}
+/*test section*/
+/*#test .parallax-window {
+	height: 100vh;
+}
+#test {
+	padding-bottom: 100px;
+	position: relative;
+}
+#test .container-fluid {
+	padding: 0;
+	text-align: center;
+}
+#test h1 {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}*/
+
+
+/*Home Section*/
+#home {
+	color: #fff;
+	text-align: center;
+}
+#home .parallax-window {
+	height: 100vh;
+}
+#home .container-fluid {
+	padding: 0px;
+}
+#home .wrapper {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+#home h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 55px;
+	letter-spacing: 2px;
+}
+#home p {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#home h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+#home .btn {
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #1A54EF;
+	border: none;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	transition: all .3s ease-in-out;
+}
+#home .btn:hover {
+	background: #202020;
+	color: orange;
+	border: none;
+}
+
+
+
+/*Introduction Section*/
+#intro {
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+#intro h1 {
+	color: #202020;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+#intro h2 {
+	color: #202020;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#intro p {
+	line-height: 10px;
+	letter-spacing: 3px;
+}
+#intro i {
+	margin-bottom: -10px;
+}
+#intro > .container > .row > .icon-head > .fa {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: #202020;
+	transition: all .4s ease-in-out;
+	border: none;
+	font-size: 50px;
+	line-height: 100px;
+}
+#intro > .container > .row > .icon-head > .fa:hover {
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #FF6118;
+	color: #fff;
+}
+#intro > .container > .row > .img-intro > div > img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 34px;
+	margin-top: 35px;
+	opacity: 0.6;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.18);
+	transition: all .2s ease-in-out;
+}
+#intro > .container > .row > .img-intro > div > img:hover {
+	opacity: 0.95;
+}
+#intro .cursor {
+	cursor: pointer;
+}
+#intro #myBox {
+	z-index: 999;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#intro .Box .fa {
+	float: right;
+	font-size: 30px;
+	margin-top: 10px;
+	color: #fff;
+	transition: all .1s ease-in-out;
+}
+#intro .Box .fa:hover {
+	color: #202020;
+	cursor: pointer;
+}
+.mySlide {
+	display: none;
+}
+.img-style {
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	width: 500px;
+	height: 500px;
+	margin-top: 30px;
+}
+
+
+
+/*AWS Section*/
+#aws {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #fff;
+	text-align: center;
+}
+#aws .title {
+	padding: 50px 25px 0 50px;
+}
+#aws .fa {
+	font-size: 50px;
+	width: 100px;
+	height: 100px;
+	border: none;
+	line-height: 100px;
+	transition: all .4s ease-in-out;
+	text-align: center;
+}
+#aws .title > .fa {
+	margin-bottom: -15px;
+}
+#aws .services > h3 {
+	color: #fff;
+	margin-bottom: 50px;
+}
+#aws .services > .fa {
+	color: #fff;
+	margin-top: 40px;
+}
+#aws .services > .fa:hover {
+	cursor: pointer;
+	background: #fff;
+	border-radius: 50%;
+	color: #FF6118;
+}
+#aws .title h1 {
+	color: #202020;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+#aws .title p {
+	padding-top: 10px;
+	color: #555555;
+	letter-spacing: 0.5px;
+}
+#aws .container {
+	width: 100%;
+	margin: 0;
+}
+#aws .bg-black {
+	background: #202020;
+	transition: all .3s ease-in-out;
+	height: 250px;
+}
+#aws .bg-black:hover {
+	text-decoration: none;
+	position: relative;
+	z-index: 999;
+	transform: scale(1.15);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.3), 0px 0px 25px rgba(0,0,0,0.22);
+	border-radius: 4px;
+}
+#aws .bg-red {
+	background: #E11313;
+	transition: all .3s ease-in-out;
+	height: 250px;
+}
+#aws .bg-red:hover {
+	position: relative;
+	z-index: 999;
+	transform: scale(1.2);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.3), 0px 0px 25px rgba(0,0,0,0.22);
+	border-radius: 4px;
+}
+#aws .services a {
+	text-decoration: none;
+	color: #fff;
+}
+#aws .services > h3:hover {
+	color: #FF6118;
+}
+
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+
+
+/*S3 Section*/
+#s3 {
+	background: url('../image/s3-bg.jpg') 0 20% no-repeat fixed;
+	background-size: cover;
+	padding-bottom: 100px;
+	color: #fff;
+	opacity: 0.9;
+	box-shadow: 0px 5px 30px rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 50px;
+}
+#s3 .fa {
+	font-size: 60px;
+	width: 100px;
+	height: 100px;
+	border: none;
+	margin-bottom: -20px;
+	transition: all .4s ease-in-out;
+	line-height: 50px;
+	padding-top: 25px;
+}
+#s3 .fa:hover {
+	border-radius: 50%;
+	background: #FF4545;
+	color: #202020;
+}
+#s3 h1 {
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+#s3 p {
+	padding-top: 50px;
+	letter-spacing: 1px;
+	color: #fff;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.85);
+}
+#s3 hr {
+	width: 20%;
+}
+#s3 .size {
+	margin: 20px;
+}
+#s3 .video-container {
+	position: relative;
+	padding-bottom: 56.25%; /*16:9*/
+	padding-top: 20px;
+}
+#s3 .video-container iframe {
+  	position: absolute;
+  	right: 0;
+  	left: 0;
+  	width: 100%;
+	height: 100%;
+}
+
+
+
+/*Fotter Section*/
+#footer {
+	background: #C72400;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: center;
+}
+#footer h1 {
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+}
+#footer .fa {
+	border: none;
+	border-radius: 50%;
+	background: #202020;
+	color: #fff;
+	width: 70px;
+	height: 70px;
+	font-size: 35px;
+	line-height: 76px;
+	transition: all .2s ease-in-out;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#footer .hover-blue:hover {
+	background: #3C53B0;
+	color: #fff;
+	cursor: pointer;
+}
+#footer .hover-brown:hover {
+	background: #FF8A15;
+	color: #fff;
+	cursor: pointer;
+}
+#footer .hover-aqua:hover {
+	background: #36CBFF;
+	color: #fff;
+	cursor: pointer;
+}
+#footer .hover-green:hover {
+	background: #4EF337;
+	color: #fff;
+	cursor: pointer;
+}
+#footer p {
+	margin-top: 10px;
+	color: #202020;
+	letter-spacing: 1px;
+}
+#footer a {
+	text-decoration: none;
+}
